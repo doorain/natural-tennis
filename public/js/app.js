@@ -4,27 +4,27 @@ angular.module('myApp', ['ui.router'])
   $stateProvider
   .state('home', {
     url: '/',
-    controller: '',
-    templateUrl: ''
+    controller: 'homeCtrl',
+    templateUrl: './views/home.html'
   })
-  .state('', {
-    url: '/',
-    controller: '',
-    templateUrl: ''
+  .state('about', {
+    url: '/about',
+    controller: 'aboutCtrl',
+    templateUrl: '/views/about.html'
   })
-  .state('', {
-    url: '/',
-    controller: '',
-    templateUrl: ''
+  .state('shop', {
+    url: '/shop',
+    controller: 'shopCtrl',
+    templateUrl: '/views/shop.html'
   })
-  .state('', {
-    url: '/',
-    controller: '',
-    templateUrl: ''
+  .state('why2', {
+    url: '/why2',
+    controller: 'why2Ctrl',
+    templateUrl: '/views/why2.html'
   })
-  .state('', {
-    url: '/',
-    controller: '',
-    templateUrl: ''
+  .state('admin', {
+    url: '/admin',
+    controller: 'adminCtrl',
+    templateUrl: '/views/admin.html'
   })
-})
+});

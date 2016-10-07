@@ -1,0 +1,114 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald|Rock+Salt';
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #CF102D;
+}
+a:active {
+    color: black;
+}
+body {
+ padding-top: 65px;
+ min-height: 400px;
+ margin-bottom: 100px;
+ clear: both;
+
+}
+
+.navbarHeader {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  height: 6vh;
+  position: fixed;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+
+}
+.nlogo {
+  height: 4vh;
+  padding:inherit;
+}
+.navbarIcons {
+  display: flex;
+  justify-content: space-around;;
+  align-items: baseline;;
+  padding: 1vh;
+  width: 80%;
+}
+.main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 3vh;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+.biglogo {
+  text-align: left;
+  padding-right: 10px;
+}
+.text{
+  text-align: right;
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Rock Salt', cursive;
+}
+.top {
+  line-height: 150%;
+}
+.button{
+  text-align: center;
+  border-radius: 2px;
+  font-size: 1.5vw;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border: .5px solid grey;
+  width: 50%;
+  background-color: #CF102D;
+  text-shadow: 2px 2px 8px black;
+  }
+.button:hover {
+  background-color: black;
+}
+.freestylepic {
+  width: 60vw;
+}
+
+.container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.containerpic{
+  width: 100%;
+  height: 60%;
+
+}
+.box{
+height: 350px;
+width: 330px;
+border: 1px solid #ccc;
+align-items: center;
+text-align: right;
+font-size: 1.5rem;
+font-family: 'Oswald', sans-serif;
+line-height: 150%;
+}
+.freestyleFont{
+  font-family: 'Rock Salt', cursive;
+}
+.span{
+  margin-right: 13px;
+}
+
+.imgsize {
+  width: 35vw;
+  max-height: 60vh;
+}

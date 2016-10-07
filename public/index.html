@@ -2,14 +2,53 @@
 <html ng-app="myApp">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="main.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/css/main.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/css/reset.css" media="screen" title="no title">
+    <link rel="stylesheet" type="text/css" href="./slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick/slick-theme.css"/>
     <title>Natural Tennis</title>
   </head>
   <body>
 
 
+    <section>
+    <div class="navbarHeader">
+      <div class="navbarIcons">
+        <a ui-sref="home"><img class="nlogo" src="./img/nlogo.png" alt="" /></a>
+        <a ui-sref="home">HOME</a>
+        <a ui-sref="about">ABOUT | PLAYERS</a>
+        <a ui-sref="why2">WHY 2</a>
+        <a ui-sref="shop">SHOP</a>
+        <!-- <a ui-sref="admin">Admin</a> -->
+      </div>
+    </div>
+  </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+ <ui-view></ui-view>
+
+
+
+        <!-- ANGULAR  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+        <!-- JQUERY  -->
+    <script   src="http://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script> -->
+    <script type="text/javascript" src="./slick/slick/slick.min.js"></script>
+    <script src="" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="./js/carousel.js"></script>
+        <!--bring in my js files   -->
     <script src="./js/app.js" charset="utf-8"></script>
+    <script src="./js/services/mainService.js" charset="utf-8"></script>
+    <script src="./js/navBarDirective.js" charset="utf-8"></script>
+    <script src="./js/Ctrl/mainCtrl.js" charset="utf-8"></script>
+    <script src="./js/Ctrl/homeCtrl.js" charset="utf-8"></script>
+    <script src="./js/Ctrl/aboutCtrl.js" charset="utf-8"></script>
+    <script src="./js/Ctrl/shopCtrl.js" charset="utf-8"></script>
+    <script src="./js/Ctrl/why2Ctrl.js" charset="utf-8"></script>
+    <script src="./js/Ctrl/adminCtrl.js" charset="utf-8"></script>
   </body>
 </html>
