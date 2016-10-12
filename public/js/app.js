@@ -17,6 +17,11 @@ angular.module('myApp', ['ui.router'])
     controller: 'shopCtrl',
     templateUrl: '/views/shop.html'
   })
+  .state('product', {
+    url: '/product/:id',
+    controller: 'shopCtrl',
+    templateUrl: '/views/product.html'
+  })
   .state('why2', {
     url: '/why2',
     controller: 'why2Ctrl',

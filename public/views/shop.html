@@ -1,3 +1,26 @@
-<div class="">
+<section class="main shop" >
+  <div class="containershop">
+    <div class="">
+      OWN THE NEW
+    </div>
+    <div class="text here">Freestyle</div>
+    <div class="">
+      <img class="freestylepic1" src="./img/battistone/freestyle.jpg" alt="" />
 
-</div>
+    </div>
+  </div>
+</section>
+
+<section class="flex">
+
+
+      <div class="box" ng-repeat="product in products">
+          <img class="containerpic" class="imgsize" ng-src="{{product.imageurl}}" alt="" />
+          <div class="span">{{product.name}}</div>
+          <div class="span"> ${{product.price}}</div>
+          <div class="inline">
+            <div class="button" ui-sref="product({id: product.productid})">Details</div>
+            <div class="button" ui-sref="product({id: product.productid})">Add to Cart</div>
+          </div>
+      </div>
+</section>

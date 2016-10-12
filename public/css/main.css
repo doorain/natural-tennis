@@ -11,14 +11,9 @@ a:hover {
 a:active {
     color: black;
 }
-body {
- padding-top: 65px;
- min-height: 400px;
- margin-bottom: 100px;
- clear: both;
-
-}
-
+/*textarea {
+  resize: none;
+}*/
 .navbarHeader {
   background-color: white;
   border-bottom: 1px solid #ccc;
@@ -39,11 +34,14 @@ body {
   padding: 1vh;
   width: 80%;
 }
+.sectionmargin {
+  padding-top: 6vh;
+
+}
 .main {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 3vh;
   font-family: 'Oswald', sans-serif;
   border-bottom: 1px solid #ccc;
 }
@@ -69,7 +67,7 @@ body {
   padding: 5px;
   cursor: pointer;
   border: .5px solid grey;
-  width: 50%;
+  width: 43%;
   background-color: #CF102D;
   text-shadow: 2px 2px 8px black;
   }
@@ -89,17 +87,18 @@ body {
 .containerpic{
   width: 100%;
   height: 60%;
+  border: 1px solid #ccc;
 
 }
 .box{
-height: 350px;
-width: 330px;
-border: 1px solid #ccc;
-align-items: center;
-text-align: right;
-font-size: 1.5rem;
-font-family: 'Oswald', sans-serif;
-line-height: 150%;
+  height: 350px;
+  width: 330px;
+  border: 1px solid #ccc;
+  align-items: center;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+  line-height: 150%;
 }
 .freestyleFont{
   font-family: 'Rock Salt', cursive;
@@ -111,4 +110,30 @@ line-height: 150%;
 .imgsize {
   width: 35vw;
   max-height: 60vh;
+}
+.here {
+  font-size: 3rem;
+}
+.freestylepic1{
+
+  width: 30vw;
+}
+.containershop {
+  padding-top: 4vh;
+  font-size: 1.5rem;
+}
+.shop{
+  justify-content: center;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.input {
+  border-radius: 8px;
+
+}
+.inline{
+  display: flex;
+  justify-content: center;
 }

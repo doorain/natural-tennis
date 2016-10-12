@@ -1,0 +1,8 @@
+<div class="" ng-repeat="product in products | filter: {productid: params} ">
+{{product.title}}
+{{product.name}}
+{{product.description}}
+{{product.color}}
+${{product.price}}
+<img class="freestylepic1" ng-src="{{product.imageurl}}" alt="" />
+</div>
